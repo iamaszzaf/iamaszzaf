@@ -10,11 +10,11 @@ namespace PortfolioData
         public static Portfolio Portfolio = new Portfolio
         {
             Name = "Łukasz Majka",
-            Description = "👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach webowych.",
             Location = "Gryfino, Polska",
             Website = "https://aszzaf.pl",
             GitHub = "https://github.com/iamaszzaf",
             LinkedIn = "https://linkedin.com/in/majkalukasz07",
+            Description = "👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach.",
             Stack = new Stack
             {
                 Frontend = new List<string> { "TypeScript", "React.js", "Next.js", "Tailwind CSS" },

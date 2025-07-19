@@ -1,5 +1,3 @@
-```csharp
-
 using System;
 using System.Collections.Generic;
 
@@ -10,7 +8,8 @@ namespace PortfolioData
         public static Portfolio Portfolio = new Portfolio
         {
             Name = "Łukasz Majka",
-            Location = "Szczecin, Poland",
+            Description = "👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach webowych.",
+            Location = "Gryfino, Polska",
             Website = "https://aszzaf.pl",
             GitHub = "https://github.com/iamaszzaf",
             LinkedIn = "https://linkedin.com/in/majkalukasz07",
@@ -44,6 +43,7 @@ namespace PortfolioData
     public class Portfolio
     {
         public string Name { get; set; }
+        public string Description { get; set; }
         public string Location { get; set; }
         public string Website { get; set; }
         public string GitHub { get; set; }

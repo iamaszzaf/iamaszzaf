@@ -10,11 +10,11 @@ namespace PortfolioData
         public static Portfolio Portfolio = new Portfolio
         {
             Name = "Łukasz Majka",
-            Location = "Gryfino, Polska",
+            Description = "👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach.",
+            Location = "Szczecin, Poland",
             Website = "https://aszzaf.pl",
             GitHub = "https://github.com/iamaszzaf",
             LinkedIn = "https://linkedin.com/in/majkalukasz07",
-            Description = "👋 Cześć! Jestem Łukasz – programista, który łączy wygląd i technologię w nowoczesnych aplikacjach.",
             Stack = new Stack
             {
                 Frontend = new List<string> { "TypeScript", "React.js", "Next.js", "Tailwind CSS" },
@@ -45,7 +45,7 @@ namespace PortfolioData
     public class Portfolio
     {
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string Description { get; set; }  // opis po imieniu z emoji
         public string Location { get; set; }
         public string Website { get; set; }
         public string GitHub { get; set; }
